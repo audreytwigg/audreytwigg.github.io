@@ -1,0 +1,51 @@
+/* FLOATING SIDE MENU */
+
+#menuJF 	{
+		width: 150px;
+		height: auto;
+		position: absolute;
+		z-index: 10;
+		margin-top: 120px;
+		top: 0px;
+		left: 0px;
+		text-align: left;
+		padding: 5px 2px 3px 120px;
+        color:#f6ecea;
+        text-decoration:none;
+        text-decoration-line: none;
+    
+		}
+#a {
+    text-decoration:none;
+    text-decoration-line: none;
+}
+
+#menuJF img	{
+		display: block;
+		margin: 4px auto 4px 0px;  /* SPACE BETWEEN LINKS */
+		}
+
+
+
+
+
+/***************
+Media Queries - WHEN PAGE WIDTH LESS THAN 482 IS ACTIVE
+***************/
+
+@media handheld and (max-width: 482px),
+   screen and (max-device-width: 482px),
+   screen and (max-width: 992px) 
+	{
+
+
+
+/* HIDES FLOATING MENU ON SMARTPHONES - DELETE LINE TO ALLOW */
+
+#menuJF	{ display: none; }
+
+
+	}
+/***************
+END Media Queries
+***************/
