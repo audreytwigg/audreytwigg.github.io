@@ -38,6 +38,30 @@ a:active,a:hover{
 
 
 
+.gallery {
+  margin-right: 16px;
+  float: left;
+  max-width: 402px;
+}
+
+.gallery:hover {
+
+    opacity: 0.5;
+    
+}
+
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  opacity: 1;
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+
+
 
 abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}
 b,strong{
