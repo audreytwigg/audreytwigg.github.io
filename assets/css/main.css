@@ -31,6 +31,7 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
+    
 }
 
 ol, ul {
@@ -98,7 +99,8 @@ input, select, textarea {
 		background: #fff;
         font-family: sofia-pro,sans-serif;
         font-style: normal;
-		font-size: 19pt;
+        font-weight: 200;
+		font-size: 14pt;
 		line-height: 1.75em;
 		color: #fff;
 	}
@@ -116,15 +118,15 @@ input, select, textarea {
 
 	input, textarea, select {
         font-family: sofia-pro,sans-serif;
-        font-weight: 400;
+        font-weight: 200;
         font-style: normal;
-		font-size: 19pt;
+		font-size: 14pt;
 		line-height: 1.75em;
 		color: #888;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		font-weight: 300;
+		font-weight: 200; 
 		color: #ffd9d9;
 		line-height: 1.5em;
 	}
@@ -2162,7 +2164,7 @@ input[type="play"]:active{
 			}
 
 		#header .icons {
-			font-size: 0.8em;
+			font-size: 1.2em;
 			text-align: center;
 		}
 
@@ -2212,6 +2214,7 @@ input[type="play"]:active{
 		list-style: none;
 		padding-left: 0;
 		margin-bottom: 0;
+        
 	}
 
 		#nav ul li {
@@ -2241,11 +2244,13 @@ input[type="play"]:active{
 				-webkit-transition: none;
 				-ms-transition: none;
 				transition: none;
+
 			}
 				#nav ul li a span {
 					position: relative;
 					display: block;
-					font-size: 0.8em;
+                    font-weight: 200;
+					/* font-size: 0.8em; */
 				}
 
 
@@ -2366,7 +2371,9 @@ input[type="play"]:active{
 		/* Basic */
 
 			body, input, textarea, select {
-				font-size: 17pt;
+				font-size: 14pt;
+                font-weight: 200;
+
 			}
 
 		/* Header */
@@ -2412,7 +2419,9 @@ input[type="play"]:active{
 		/* Basic */
 
 			body, input, textarea, select {
-				font-size: 16pt;
+				font-size: 14pt;
+                font-weight: 200;
+
 			}
 
 			.container {
@@ -2679,12 +2688,13 @@ input[type="play"]:active{
 
 			body, input, textarea, select {
 				font-size: 14pt;
+                
 			}
 
 			h2 {
 				font-size: 1.5em;
 				letter-spacing: 0;
-				font-weight: 300;
+				font-weight: 200;
 			}
 
 			.container {
